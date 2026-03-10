@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-03-03T20:22:11.223267-08:00",
+  "source": "opus_ingestion_bridge",
+  "items": [
+    {
+      "id": "opus_1",
+      "title": "KINGS at LAKERS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "reason": "score=91.6 | debate | high",
+      "preview_url": "/previews/opus_1.mp4",
+      "local_path": "/Users/malyhernandez/.openclaw/workspace/RBT_Core/state/opus_final_1.mp4",
+      "status": "ready_preview"
+    },
+    {
+      "id": "opus_2",
+      "title": "TIMBERWOLVES at NUGGETS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "reason": "score=89.8 | clutch | high",
+      "preview_url": "/previews/opus_2.mp4",
+      "local_path": "/Users/malyhernandez/.openclaw/workspace/RBT_Core/state/opus_final_2.mp4",
+      "status": "ready_preview"
+    },
+    {
+      "id": "opus_3",
+      "title": "THUNDER at MAVERICKS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "reason": "score=88.35 | debate | high",
+      "preview_url": "/previews/opus_3.mp4",
+      "local_path": "/Users/malyhernandez/.openclaw/workspace/RBT_Core/state/opus_final_3.mp4",
+      "status": "ready_preview"
+    }
+  ]
+}

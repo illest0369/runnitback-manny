@@ -1,0 +1,55 @@
+{
+  "timezone": "America/Los_Angeles",
+  "analytics_slots": [
+    "11:10",
+    "12:25",
+    "13:10"
+  ],
+  "items": [
+    {
+      "title": "KINGS at LAKERS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "url": "",
+      "slot": "11:10",
+      "caption_template": "CONTENDER OR PRETENDER? KINGS at LAKERS | FULL GAME HIGHLIGHTS | March 1, 2026 \u2014 receipts say what? agree or foul?",
+      "hashtags": [
+        "#NBA",
+        "#NBATalk",
+        "#Basketball",
+        "#SportsDebate",
+        "#RunnitBackTV"
+      ],
+      "status": "pending_manual_approval"
+    },
+    {
+      "title": "TIMBERWOLVES at NUGGETS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "url": "",
+      "slot": "12:25",
+      "caption_template": "CONTENDER OR PRETENDER? TIMBERWOLVES at NUGGETS | FULL GAME HIGHLIGHTS | March 1, 2026 \u2014 receipts say what? agree or foul?",
+      "hashtags": [
+        "#NBA",
+        "#NBATalk",
+        "#Basketball",
+        "#SportsDebate",
+        "#RunnitBackTV"
+      ],
+      "status": "pending_manual_approval"
+    },
+    {
+      "title": "THUNDER at MAVERICKS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "url": "",
+      "slot": "13:10",
+      "caption_template": "CONTENDER OR PRETENDER? THUNDER at MAVERICKS | FULL GAME HIGHLIGHTS | March 1, 2026 \u2014 receipts say what? agree or foul?",
+      "hashtags": [
+        "#NBA",
+        "#NBATalk",
+        "#Basketball",
+        "#SportsDebate",
+        "#RunnitBackTV"
+      ],
+      "status": "pending_manual_approval"
+    }
+  ]
+}

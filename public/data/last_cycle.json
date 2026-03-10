@@ -1,0 +1,60 @@
+{
+  "ran_at": "2026-03-03T23:29:50.629077",
+  "mode": "sports_only_public_signals",
+  "sources_used": [
+    "youtube:runnitback_subscriptions"
+  ],
+  "trendscout_output": [
+    {
+      "topic": "KINGS at LAKERS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "source": "youtube:runnitback_subscriptions",
+      "velocity_score": 93,
+      "engagement_score": 87,
+      "narrative_type": "debate",
+      "saturation_level": "high",
+      "rank_score": 91.6
+    },
+    {
+      "topic": "TIMBERWOLVES at NUGGETS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "source": "youtube:runnitback_subscriptions",
+      "velocity_score": 91,
+      "engagement_score": 85,
+      "narrative_type": "clutch",
+      "saturation_level": "high",
+      "rank_score": 89.8
+    },
+    {
+      "topic": "THUNDER at MAVERICKS | FULL GAME HIGHLIGHTS | March 1, 2026",
+      "league": "NBA",
+      "source": "youtube:runnitback_subscriptions",
+      "velocity_score": 89,
+      "engagement_score": 84,
+      "narrative_type": "debate",
+      "saturation_level": "high",
+      "rank_score": 88.35
+    },
+    {
+      "topic": "Unc & Ocho DEBATE if Kyler Murray is still a FRANCHISE QB or WASHED UP?! | Nightcap",
+      "league": "NFL",
+      "source": "youtube:runnitback_subscriptions",
+      "velocity_score": 88,
+      "engagement_score": 83,
+      "narrative_type": "debate",
+      "saturation_level": "high",
+      "rank_score": 87.45
+    },
+    {
+      "topic": "Biggest winners & losers of the 2026 NFL Combine | The Domonique Foxworth Show",
+      "league": "NFL",
+      "source": "youtube:runnitback_subscriptions",
+      "velocity_score": 86,
+      "engagement_score": 82,
+      "narrative_type": "debate",
+      "saturation_level": "medium",
+      "rank_score": 86.0
+    }
+  ],
+  "note": "Sports-only ingest from allowed public sources (YouTube subscriptions + X sports public signals)."
+}

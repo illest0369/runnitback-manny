@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="70" y="70" width="160" height="160" rx="34" fill="#2563eb"/>
+  <text x="150" y="175" text-anchor="middle" font-size="70" font-family="Arial, sans-serif" font-weight="700" fill="#fff">RB</text>
+  <text x="270" y="150" font-size="64" font-family="Arial, sans-serif" font-weight="700" fill="#fff">RunnitBack TV</text>
+  <text x="270" y="210" font-size="34" font-family="Arial, sans-serif" fill="#bcd0ff">Mobile Command Center</text>
+  <text x="70" y="360" font-size="34" font-family="Arial, sans-serif" fill="#dbe6ff">Review queue • Copy captions • Operate from phone anywhere</text>
+</svg>

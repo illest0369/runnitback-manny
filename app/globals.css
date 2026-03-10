@@ -1,0 +1,54 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+:root{
+  --bg:#e9edf4;
+  --ink:#111827;
+  --sub:#5b6472;
+  --glass:rgba(255,255,255,.62);
+  --glass-strong:rgba(255,255,255,.78);
+  --stroke:rgba(255,255,255,.7);
+  --shadow:0 10px 34px rgba(15,23,42,.16);
+  --accent:#0a84ff;
+}
+body{
+  font-family:'SF Pro Text','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  color:var(--ink);
+  background:
+    radial-gradient(1000px 500px at 10% -10%, #c8d9ff 0%, transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, #d3f4ff 0%, transparent 65%),
+    var(--bg);
+}
+.app-shell{max-width:860px;margin:0 auto;padding:18px 14px 94px}
+.topbar{display:flex;flex-direction:column;gap:10px;margin-bottom:12px}
+.brand{display:flex;align-items:center;gap:10px}
+.avatar{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#0a84ff,#5ac8fa);display:grid;place-items:center;font-weight:700;color:#fff;box-shadow:var(--shadow)}
+h1{margin:0;font-size:25px;line-height:1.1;letter-spacing:-.02em}
+.brand p{margin:2px 0 0;color:var(--sub);font-size:13px}
+.chip{display:inline-flex;align-items:center;font-size:12px;color:#1f2937;background:var(--glass-strong);border:1px solid var(--stroke);border-radius:999px;padding:7px 10px;backdrop-filter:blur(16px)}
+
+.hero-card,.panel{background:var(--glass);border:1px solid var(--stroke);border-radius:22px;padding:14px;margin-bottom:12px;backdrop-filter:blur(22px) saturate(130%);box-shadow:var(--shadow)}
+.eyebrow{margin:0 0 8px;font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#445065}
+h2{margin:0 0 8px;font-size:20px;line-height:1.25}
+.hook{margin:0 0 8px;font-weight:600}.caption{margin:0;color:#334155}
+.tags-wrap{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{font-size:12px;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.7);border:1px solid var(--stroke);color:#1e3a8a}
+.panel-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.panel-head h3{margin:0;font-size:17px}.panel-head span{font-size:12px;color:#536074}
+.stack{display:grid;gap:8px}
+.queue-item,.clip-item{background:rgba(255,255,255,.62);border:1px solid var(--stroke);border-radius:16px;padding:10px}
+.row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.slot,.league,.status{font-size:11px;padding:3px 7px;border-radius:999px;background:#f5f8ff;border:1px solid #d9e2f0;color:#334155}
+.queue-item h4,.clip-item h4{margin:0 0 4px;font-size:15px}.queue-item p,.clip-item p{margin:0;font-size:13px;color:#334155}
+.hashtags{margin-top:6px;color:#335ea8}
+.clip-item{display:flex;gap:10px;align-items:flex-start}
+.clip-icon{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#e6f0ff;color:#1d4ed8;font-weight:700;font-size:12px;flex:0 0 auto}
+.video-preview{width:100%;border-radius:12px;background:#000;margin-top:8px;min-height:190px}
+
+.tabbar{position:fixed;bottom:10px;left:50%;transform:translateX(-50%);width:min(860px,calc(100vw - 16px));background:rgba(255,255,255,.7);border:1px solid var(--stroke);border-radius:18px;padding:8px;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;backdrop-filter:blur(22px);box-shadow:var(--shadow)}
+.tab{border:none;background:rgba(255,255,255,.9);color:#4b5563;padding:12px 6px;border-radius:12px;font-size:12px;min-height:44px;display:flex;align-items:center;justify-content:center;text-decoration:none}
+.tab.active{background:linear-gradient(135deg,#0a84ff,#4ba8ff);color:#fff;font-weight:700}
+.action-row{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.copy-btn{border:1px solid #cbd8eb;background:#fff;color:#0f172a;border-radius:12px;padding:10px 12px;min-height:44px;font-size:12px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(15,23,42,.07)}
+.copy-btn:active{transform:translateY(1px)}
+.copy-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+@media (min-width:760px){.topbar{flex-direction:row;justify-content:space-between;align-items:center}.app-shell{padding-top:24px}}
