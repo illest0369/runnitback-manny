@@ -9,8 +9,9 @@ const { prompt } = await req.json();
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const resp = await client.responses.create({
-model: "gpt-4.1-mini",
+model: "anthropic/claude-3.5-haiku",
 input: prompt || "Say hello from Runnit Back.",
+max_output_tokens: 120,
 });
 
 return NextResponse.json({ ok: true, text: resp.output_text });
